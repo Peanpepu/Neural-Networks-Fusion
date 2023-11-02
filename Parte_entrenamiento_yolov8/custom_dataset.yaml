@@ -1,0 +1,11 @@
+path: /root/TFG/data/dataset_term # rgb dataset root dir
+# path: /home/pedrop/Desktop/TFG/data/dataset_term # thermical dataset root dir
+train: images/train # train images (relative to "path")
+val: images/test # validation images (relative to "path")
+
+# class names
+names:
+  0: 'emergency vehicle'
+  1: 'non-emergency vehicle'
+  2: 'first responder'
+  3: 'non-first responder'
