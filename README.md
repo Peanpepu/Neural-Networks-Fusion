@@ -1,3 +1,3 @@
 # Neural Networks Fusion
 
-En la última semana he elegido 15 imágenes aleatorias y las he sincronizado para encontrar tanto la rgb como la térmica para el mismo frame. Después, he utilizado labelImg para etiquetar el ground truth. Y por último, he creado un código que procesa las imágenes por sus respectivas redes ya entrenadas para después crear un csv con esos datos y su ground truth.
+This project is a Final Project Degree created by Pedro Antonio Peña Puente. Here I implement a neural networks fusion algorithm with ROS2 where we are able to read RGB images with thermical images by ROS2 topics, process them with the neural networks I trained, create a fusion response and send it by another ROS2 topic. Finally, I created an application with opencv where we can visualize the results. The base project I used to implement YOLOv8 in ROS2 comes from the repository https://github.com/mgonzs13/yolov8_ros . 
