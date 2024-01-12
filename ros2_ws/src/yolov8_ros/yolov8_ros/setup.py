@@ -19,7 +19,8 @@ setup(
     license='GPL-3',
     entry_points={
         'console_scripts': [
-                'prueba_ros = yolov8_ros.prueba_ros:main',
+                # 'prueba_ros = yolov8_ros.prueba_ros:main',
+                'fusion_ros = yolov8_ros.fusion_ros:main',
                 'img_publisher = yolov8_ros.img_publisher:main',
                 'visualization = yolov8_ros.visualization:main',
                 'save_img = yolov8_ros.save_img:main'
